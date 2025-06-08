@@ -1,0 +1,4 @@
+Model,Size (MB),Avg Inference (ms),RAM (MB),VRAM (MB),Accuracy (%),Samples Tested
+Teacher,327.33,5.96,3903.38,437.69,96.30,10000
+Student (Pretrained only),21.08,6.00,3909.72,437.69,91.11,10000
+Student (After distillation),21.08,6.10,3910.60,437.69,93.46,10000
