@@ -1,0 +1,21 @@
+Using device: cpu
+{
+  "accuracy": 0.40625,
+  "mean_latency_ms": 295.75206339359283,
+  "ram_delta_mb": 414.78515625,
+  "weights_size_mb": 327.3795566558838
+}
+{
+  "accuracy": 0.40625,
+  "mean_latency_ms": 242.41462349891663,
+  "ram_delta_mb": 2.5,
+  "weights_size_mb": 327.3992404937744
+}
+
+
+--- Final Comparison ---
+Metric               | Original (FP32)      | Optimized (FP32)    
+-----------------------------------------------------------------
+Accuracy             | 0.4062                | 0.4062
+Mean Latency (ms)    | 295.75                | 242.41
+Weights Size (MB)    | 327.38                | 327.40
